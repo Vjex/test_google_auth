@@ -1,7 +1,7 @@
 {
   "name": "node_sftp",
   "version": "1.0.0",
-  "description": "A Node project for SFTP of BajajFinserve",
+  "description": "A Node project for Google Auth token Validation",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,8 +9,7 @@
     "start:dev": "nodemon server.js"
   },
   "keywords": [
-    "node",
-    "sftp"
+    "node"
   ],
   "author": "Vishal Verma",
   "license": "ISC",
@@ -20,13 +19,11 @@
     "email-validator": "^2.0.4",
     "express": "^4.17.1",
     "google-auth-library": "^8.7.0",
-    "morgan": "^1.10.0",
-    "multer": "^1.4.2",
-    "mysql": "^2.18.1",
+  
     "package.json": "^2.0.1",
     "randomstring": "^1.1.5",
-    "request": "^2.88.2",
-    "ssh2-sftp-client": "^6.0.1"
+    "request": "^2.88.2"
+
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
